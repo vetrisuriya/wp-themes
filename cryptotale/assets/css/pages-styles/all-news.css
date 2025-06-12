@@ -1,0 +1,7 @@
+/********
+12.  All News Page
+********/
+/* All News (all-news.php) */
+.all-news .ts-post-thumb img {
+    max-height: 250px;
+}

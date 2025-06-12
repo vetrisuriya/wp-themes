@@ -1,0 +1,13 @@
+/********
+4.   Author Page
+********/
+.author-page .ts-post-thumb img {
+    max-height: 250px;
+}
+.author-page .ts-grid-box .ts-post-thumb img {
+    min-height: 200px;
+    height: 200px;
+}
+.author-page .author-box .author-img {
+    top: 0;
+}

@@ -1,0 +1,21 @@
+/********
+13.  Archive Web Story
+********/
+.archive-web-story .post-title {
+    height: 40px;
+}
+
+
+.archive-web-story .web-stories-embed {
+    max-width: 100%;
+    width: 100%;
+}
+.archive-web-story .web-stories-embed .wp-block-embed__wrapper {
+    max-width: 100% !important;
+    width: 100%;
+}
+.archive-web-story .web-stories-embed .wp-block-embed__wrapper amp-story-player img {
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}

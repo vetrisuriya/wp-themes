@@ -1,0 +1,29 @@
+/********
+6.   Single Page
+********/
+.single-page h1, .single-page h2, .single-page h3, .single-page h4, .single-page h5, .single-page h6 {
+    margin-bottom: 15px;
+}
+.single-page h4 {
+    font-size: 20px;
+}
+.single-page p {
+    line-height: 30px;
+    font-size: 17px;
+}
+.single-page p a {
+    font-weight: 600;
+    color: #000;
+    transition: all 250ms ease;
+    border-bottom: 2px dotted transparent;
+}
+.single-page p a:hover {
+    border-bottom: 2px dotted #f59b38;
+    color: #f59b38;
+}
+.single-page strong, .single-page b {
+    font-weight: inherit;
+}
+.single-page p strong, .single-page p b {
+    font-weight: bold;
+}

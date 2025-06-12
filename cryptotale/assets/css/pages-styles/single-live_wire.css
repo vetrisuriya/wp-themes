@@ -1,0 +1,42 @@
+/********
+10.  Single Live Wire
+********/
+.single-live-wire .content-wrapper {
+    padding: 30px 30px 40px;
+}
+.single-live-wire .content-wrapper .entry-content p {
+    font-size: 18px;
+    line-height: 30px;
+}
+.single-live-wire .content-wrapper .entry-content p a {
+    color: #f59b38;
+    transition: all 250ms ease;
+    border-bottom: 2px dotted #fff;
+}
+.single-live-wire .content-wrapper .entry-content p a:hover {
+    border-bottom: 2px dotted #f59b38;
+}
+@media (max-width: 768px) {
+    .single-live-wire .content-wrapper {
+        padding: 30px 20px 40px !important;
+    }
+}
+/* Single Live Wire Page Social Styles */
+.single-live-wire ul.ts-block-social-list li.ts-facebook a,
+.single-live-wire ul.ts-block-social-list li.ts-twitter a,
+.single-live-wire ul.ts-block-social-list li.ts-pinterest a,
+.single-live-wire ul.ts-block-social-list li.ts-linkedin a {
+    background: unset;
+    padding: 5px;
+}
+.single-live-wire ul.ts-block-social-list {
+    position: relative;
+}
+.single-live-wire ul.ts-block-social-list::before {
+    content: "Share :";
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: -50px;
+    transform: translate(0, -70%);
+}

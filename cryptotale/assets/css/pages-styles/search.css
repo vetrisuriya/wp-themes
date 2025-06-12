@@ -1,0 +1,14 @@
+/********
+14.  Search
+********/
+.search-page button.btn.btn-primary {
+    background: #FFA031;
+    color: #232323;
+}
+.search-page button.btn.btn-primary:hover {
+    color: #fff;
+}
+
+.search-page .post-meta-info li a:hover {
+    color: #ffa031;
+}

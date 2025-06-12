@@ -1,0 +1,9 @@
+<div class="widgets widgets-item">
+    <h3 class="widget-title"><span>On social</span></h3>
+    <ul class="ts-block-social-list">
+        <li class="ts-facebook"><a class="social-share-button" href="<?php echo 'https://www.facebook.com/sharer.sharer.php?u='.get_the_permalink(); ?>" target="_blank" rel="noopener" data-post-id="<?php echo get_the_ID(); ?>" data-social-media="facebook" aria-label="Facebook Post Share"><div><i class="fa fa-facebook"></i><b>Facebook </b></div></a></li>
+        <li class="ts-twitter"><a class="social-share-button" href="<?php echo 'https://twitter.com/intent/tweet?url='.get_the_permalink(); ?>" target="_blank" rel="noopener" data-post-id="<?php echo get_the_ID(); ?>" data-social-media="twitter" aria-label="Twitter Post Share"><div><i class="fa fa-twitter"></i><b>Twitter </b></div></a></li>
+        <li class="ts-pinterest"><a class="social-share-button" href="<?php echo 'https://www.pinterest.com/pin/create/button/?url='.get_the_permalink().'&media='.get_the_post_thumbnail_url(); ?>" target="_blank" rel="noopener" data-post-id="<?php echo get_the_ID(); ?>" data-social-media="pinterest" aria-label="Pinterest Post Share"><div><i class="fa fa-pinterest-p"></i><b>Pinterest </b></div></a></li>
+        <li class="ts-linkedin"><a class="social-share-button" href="<?php echo 'https://www.linkedin.com/shareArticle?mini=true&url='.get_the_permalink().'&title='.urlencode(get_the_title()); ?>" target="_blank" rel="noopener" data-post-id="<?php echo get_the_ID(); ?>" data-social-media="linkedin" aria-label="Linkedin Post Share"><div><i class="fa fa-linkedin"></i><b>Linkedin </b></div></a></li>
+    </ul>
+</div>

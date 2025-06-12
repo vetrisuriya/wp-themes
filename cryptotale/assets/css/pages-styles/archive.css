@@ -1,0 +1,16 @@
+/********
+3.   Archive Page
+********/
+.archive-page .archive-page-header {
+    margin-bottom: 25px;
+}
+.archive-page .archive-page-header .entry-cat-header p {
+    margin-bottom: 10px;
+}
+.archive-page .ts-post-thumb img {
+    max-height: 250px;
+}
+.archive-page .ts-grid-box .ts-post-thumb img {
+    min-height: 200px;
+    height: 200px;
+}
